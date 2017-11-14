@@ -116,6 +116,7 @@ function proxyRequest (route, mw) {
         const response = await request(proxyReq, reqData)
         ctx.status = response.res.statusCode
         ctx.body = response.data
+        console.log(response.res.headers);
         ctx.set(response.res.headers)
 
         const viewResponse = Object.assign({}, response)
