@@ -1,5 +1,5 @@
 {
-  "name": "lws-rewrite",
+  "name": "@ivan-ponomarev/lws-rewrite",
   "author": "Lloyd Brookes <75pound@gmail.com>",
   "version": "0.3.7",
   "description": "URL rewriting middleware for lws",
